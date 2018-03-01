@@ -1,3 +1,3 @@
 # TrivaGame
 
-A simple web-based triva game.
+A simple web-based trivia game.
