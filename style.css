@@ -1,0 +1,82 @@
+body{
+  background: #6f5499;
+  color: #FFF;
+  text-align: center;
+}
+
+.header{
+  position: relative;
+  text-align: center;
+}
+
+.form-questions{
+  margin-top: 10%;
+}
+
+.form-group{
+  margin-right: 5px;
+}
+
+.btn-primary
+{
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #FFF;
+  /*-o-transition: all 0.75s;
+  -webkit-transition: all 0.75s;
+  -moz-transition: all 0.75s;
+  transition: all 0.75s;*/
+}
+
+.btn-primary:hover{
+  color: #6f5499;
+  background: #FFF;
+  border-color: #FFF;
+}
+
+/* TODO: Fix sumbit button background blue on press  */
+.btn .btn-primary:active{
+  background: rgba(#ffffff, 0.5);
+}
+
+
+
+
+.question-container{
+  margin-top: 5%;
+  display: none;
+}
+
+.game-form{
+  margin-top: 5%;
+}
+
+.question-label{
+  width: 11%;
+  background: #FFF;
+  color: #6f5499;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.question-label .question-counter,.question-label .question-timer{
+  font-weight: normal;
+}
+
+#spinner{
+  position: absolute;
+  top:45%;
+  font-size: 50px;
+  color: #FFF;
+}
+
+.question-dropdown,.question-buttons{
+  display: none;
+}
+
+.logo
+{
+  margin-top: 15%;
+  width: 64px;
+  height: 64px;
+}
